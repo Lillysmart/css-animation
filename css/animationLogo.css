@@ -7,11 +7,12 @@
 }
 
 /* The element to apply the animation to */
- img { 
+img{
   width: 100px;
-  height: 100px;
-  background-color: red;
+  height: 100px; 
+  background-color: red ;
   animation-name: animatedSquare;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;    
 } 
+

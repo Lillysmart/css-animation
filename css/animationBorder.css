@@ -1,0 +1,18 @@
+@keyframes animateBorder{ 
+    0% {background-color : pink; 
+        border-radius: 0%;}
+    25% {background-color: purple;
+         border-radius: 50%;}
+    50% {background-color: cyan ;}
+    100% {background-color: orangered;}
+
+}
+
+
+img{ background-color: pink;
+     animation-name: animateBorder ;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+    height: 100px;}
+      
+    
