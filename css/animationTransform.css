@@ -5,6 +5,7 @@
     border-radius: 0%;
     transform: rotate(90deg);
   }
+
   25% {
     background-color:green;
     border-radius: 100%;
@@ -29,6 +30,6 @@ img {
   animation-duration: 4s;
   animation-name: animateTransform;
   animation-iteration-count:initial;
- 
+} 
 
-}
+img:hover {animation: normal;}
